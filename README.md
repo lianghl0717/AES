@@ -18,14 +18,14 @@ AESOperator.java是java后端的工具类，**需要用到apache的包commons-co
 
 -----
 ##最后再写上前端小程序加密的示例和后端java解密的示例  
-###前端小程序示例，因为暴露过接口了，所以使用起来也很方便：  
+###前端小程序示例，因为暴露过接口了，所以使用起来也很方便:
 ```
 var CryptoJS = require('.../util.js')//这里的路径是你放util.js的路径
 var userName = CryptoJS.Encrypt('1625110****');//将1625110****加密并赋值给userName
 ```
 
 
-###后端java示例：
+###后端java示例:
 ```
 	public static void main(String[] args) {
 		//设置AES加密的密钥 16位的16进制的ASCII码，我这里示例是1234123412ABCDEF
